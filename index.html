@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SMR Grocery Store — Everyday Groceries in SMR Vinay Iconia, Kondapur</title>
+<meta name="description" content="SMR Grocery Store is your neighbourhood grocery shop inside SMR Vinay Iconia, Kondapur, Hyderabad. Everyday essentials delivered free within the society in 30 minutes.">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ===== Navbar ===== -->
+<nav class="navbar navbar-expand-lg smr-navbar">
+  <div class="container">
+    <a class="navbar-brand smr-brand" href="index.html">SMR <span>Grocery</span> Store</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#smrNav" aria-controls="smrNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="smrNav">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+      <a href="tel:+919963492299" class="btn-call"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg> Call to Order</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ===== Hero ===== -->
+<header class="hero">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6">
+        <p class="eyebrow mb-3">Your Society's Own Grocery Store</p>
+        <h1>Everyday groceries, delivered to your door in 30 minutes.</h1>
+        <p class="lede mt-3">SMR Grocery Store sits right inside SMR Vinay Iconia — so when you're out of milk or need tonight's dinner staples, help is a phone call away, not a drive away.</p>
+
+        <div class="hero-badges">
+          <span class="badge-pill">🚴 Free delivery inside the society</span>
+          <span class="badge-pill">⏱ Delivered in 30 minutes</span>
+          <span class="badge-pill">💳 UPI &amp; Cash accepted</span>
+        </div>
+
+        <div class="d-flex flex-wrap gap-3 mt-4">
+          <a href="tel:+919963492299" class="btn-call">📞 Call to Order — 99634 92299</a>
+          <a href="https://wa.me/919963492299" target="_blank" rel="noopener" class="btn-whatsapp">💬 Order on WhatsApp</a>
+        </div>
+
+        <p class="text-muted-soft mt-3" style="font-size:0.88rem;">Open daily, 7:00 AM – 10:00 PM · <span id="hero-status" data-open-status></span></p>
+      </div>
+
+      <div class="col-lg-6">
+        <svg class="hero-art" viewBox="0 0 480 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of a grocery bag filled with fresh vegetables">
+          <ellipse cx="240" cy="360" rx="170" ry="24" fill="var(--color-bg-soft-2)"/>
+          <path d="M150 150 C150 150 155 100 240 100 C325 100 330 150 330 150 L345 340 C345 355 333 365 318 365 L162 365 C147 365 135 355 135 340 Z" fill="var(--color-primary-light)" stroke="var(--color-primary)" stroke-width="4"/>
+          <path d="M180 150 C180 110 205 80 240 80 C275 80 300 110 300 150" fill="none" stroke="var(--color-primary)" stroke-width="8" stroke-linecap="round"/>
+          <!-- carrot -->
+          <path d="M215 150 L200 60 L235 100 Z" fill="var(--color-accent)"/>
+          <path d="M212 70 l-10 -18 M220 62 l-4 -20 M228 68 l6 -18" stroke="var(--color-primary)" stroke-width="4" stroke-linecap="round"/>
+          <!-- leafy green -->
+          <ellipse cx="270" cy="110" rx="26" ry="42" transform="rotate(20 270 110)" fill="#3f8a5f"/>
+          <ellipse cx="255" cy="95" rx="20" ry="34" transform="rotate(-10 255 95)" fill="#4fa06d"/>
+          <!-- tomato -->
+          <circle cx="300" cy="140" r="20" fill="#c8492f"/>
+          <path d="M296 122 q4 -10 12 -6 q4 -6 10 2" fill="none" stroke="#3f8a5f" stroke-width="3" stroke-linecap="round"/>
+          <!-- bag text -->
+          <text x="240" y="260" text-anchor="middle" font-family="Fraunces, serif" font-weight="700" font-size="30" fill="var(--color-primary)">SMR</text>
+          <text x="240" y="290" text-anchor="middle" font-family="Inter, sans-serif" font-weight="600" font-size="14" letter-spacing="2" fill="var(--color-primary-dark)">GROCERY STORE</text>
+        </svg>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ===== Delivery promise strip (signature element) ===== -->
+<section class="promise-strip">
+  <div class="container">
+    <div class="promise-route">
+      <div class="promise-node">
+        <div class="dot"></div>
+        <div class="label">SMR Grocery<br>Store</div>
+      </div>
+      <div class="promise-line">
+        <span class="promise-time">≤ 30 min</span>
+      </div>
+      <div class="promise-node">
+        <div class="dot"></div>
+        <div class="label">Your Door,<br>SMR Vinay Iconia</div>
+      </div>
+    </div>
+    <p class="promise-note">Free delivery anywhere inside the society on orders above ₹200 · Delivery currently limited to SMR Vinay Iconia only</p>
+  </div>
+</section>
+
+<!-- ===== Categories ===== -->
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow mb-2">What we stock</p>
+      <h2>Everything for the everyday kitchen</h2>
+      <p class="text-muted-soft mt-2">A neighbourhood store stocked like a well-run pantry — fresh produce, daily dairy, kitchen staples, snacks and household basics. Don't see something? Call us — chances are it's on the shelf.</p>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-sm-6 col-lg-4">
+        <div class="cat-card">
+          <svg class="cat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21c-4.5 0-8-3.5-8-8 0-4 2.5-7 6-8"/><path d="M12 21c4.5 0 8-3.5 8-8 0-3-1.5-5.5-4-7"/><path d="M12 5c0-1.5 1-3 3-3"/></svg>
+          <h3>Fruits &amp; Vegetables</h3>
+          <p>Bananas, tomatoes, onions, potatoes, green chillies, coriander, and daily fresh stock.</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4">
+        <div class="cat-card">
+          <svg class="cat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 2h6l1 5H8l1-5Z"/><path d="M7 7h10l1 13a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L7 7Z"/></svg>
+          <h3>Dairy &amp; Bakery</h3>
+          <p>Milk, curd, paneer, bread, eggs and butter — restocked every morning.</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4">
+        <div class="cat-card">
+          <svg class="cat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4V2h6v2"/><path d="M9 12h6M9 16h6"/></svg>
+          <h3>Everyday Staples</h3>
+          <p>Rice, atta, dal, cooking oil, sugar and salt — the kitchen basics, always in stock.</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4">
+        <div class="cat-card">
+          <svg class="cat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 8h12l-1 12a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2L6 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+          <h3>Snacks &amp; Beverages</h3>
+          <p>Biscuits, namkeen, tea, coffee, soft drinks and chips for every craving.</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4">
+        <div class="cat-card">
+          <svg class="cat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M8 12h8M12 8v8"/></svg>
+          <h3>Household &amp; Personal Care</h3>
+          <p>Detergent, dishwash liquid, soap, shampoo, toothpaste and tissue paper.</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4">
+        <div class="cat-card" style="background:var(--color-primary-light); border-color:transparent;">
+          <h3 style="color:var(--color-primary-dark);">Don't see it here?</h3>
+          <p style="color:var(--color-primary-dark);">This is a snapshot, not the full shelf. Call or WhatsApp us and we'll tell you if we've got it in store.</p>
+          <a href="products.html" class="btn-call mt-2" style="display:inline-flex;">See full range</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Why choose us ===== -->
+<section class="section section-soft">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow mb-2">Why your neighbours order from us</p>
+      <h2>Small store, fast promises</h2>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="value-card">
+          <div class="value-num mb-2">30 min</div>
+          <h3 class="h5">Genuinely local delivery</h3>
+          <p class="text-muted-soft">We're inside SMR Vinay Iconia, so your order doesn't have to travel far to reach you.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="value-card">
+          <div class="value-num mb-2">7–10</div>
+          <h3 class="h5">Open early to late, every day</h3>
+          <p class="text-muted-soft">7:00 AM to 10:00 PM, seven days a week — no weekly off to plan around.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="value-card">
+          <div class="value-num mb-2">₹200</div>
+          <h3 class="h5">Low bar for free delivery</h3>
+          <p class="text-muted-soft">Cross ₹200 and delivery's on us. Pay by UPI or cash at the door.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Testimonial (placeholder) ===== -->
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow mb-2">From the society</p>
+      <h2>What residents say</h2>
+      <p class="text-muted-soft mt-2" style="font-size:0.85rem;">Sample quotes — swap these for real resident feedback once you have it.</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="testimonial-card">
+          <p class="testimonial-quote">"Ran out of milk during a power cut — had it at my door in twenty minutes."</p>
+          <p class="testimonial-name">— Resident, Tower 3</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="testimonial-card">
+          <p class="testimonial-quote">"Nice to have a proper grocery store inside the society instead of driving out for basics."</p>
+          <p class="testimonial-name">— Resident, Tower 7</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="testimonial-card">
+          <p class="testimonial-quote">"Ordering on WhatsApp before I get home from work means dinner's never delayed."</p>
+          <p class="testimonial-name">— Resident, Tower 1</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Footer ===== -->
+<footer class="smr-footer">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <h4>SMR Grocery Store</h4>
+        <p style="font-size:0.9rem;">Your everyday grocery store inside SMR Vinay Iconia — fresh essentials, fast local delivery.</p>
+      </div>
+      <div class="col-md-4">
+        <h4>Visit or Call</h4>
+        <p style="font-size:0.9rem;">SMR Vinay Iconia<br>Kondapur, Hyderabad – 500084</p>
+        <p style="font-size:0.9rem;"><a href="tel:+919963492299">99634 92299</a></p>
+      </div>
+      <div class="col-md-4">
+        <h4>Quick Links</h4>
+        <p style="font-size:0.9rem;">
+          <a href="about.html">About Us</a><br>
+          <a href="products.html">Products</a><br>
+          <a href="contact.html">Contact</a>
+        </p>
+      </div>
+    </div>
+    <div class="fine-print">
+      © <span id="footer-year"></span> SMR Grocery Store. Demo website built as a student web-development project.
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

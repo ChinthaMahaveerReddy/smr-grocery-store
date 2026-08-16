@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Products — SMR Grocery Store</title>
+<meta name="description" content="Browse the range at SMR Grocery Store — fruits, vegetables, dairy, staples, snacks and household items, delivered free inside SMR Vinay Iconia.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg smr-navbar">
+  <div class="container">
+    <a class="navbar-brand smr-brand" href="index.html">SMR <span>Grocery</span> Store</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#smrNav" aria-controls="smrNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="smrNav">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+      <a href="tel:+919963492299" class="btn-call">📞 Call to Order</a>
+    </div>
+  </div>
+</nav>
+
+<header class="page-header">
+  <div class="container">
+    <p class="eyebrow mb-2">Our Range</p>
+    <h1>What's on the shelves</h1>
+    <p class="text-muted-soft mt-2" style="max-width:60ch;">A working snapshot of what we usually stock. Prices and exact brands vary by what's in that day — call or WhatsApp us to check availability before you place an order.</p>
+    <div class="alert" style="background:var(--color-primary-light); color:var(--color-primary-dark); border:none; border-radius:var(--radius-sm); max-width:60ch; font-size:0.88rem;" role="note">
+      📝 <strong>Note for the store owner:</strong> these are sample items filled in to show the page layout — swap them for your real, full product list (with prices, if you'd like them shown).
+    </div>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+
+    <div class="row g-5">
+      <!-- Fruits & Vegetables -->
+      <div class="col-lg-6">
+        <div class="cat-card h-100">
+          <svg class="cat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21c-4.5 0-8-3.5-8-8 0-4 2.5-7 6-8"/><path d="M12 21c4.5 0 8-3.5 8-8 0-3-1.5-5.5-4-7"/><path d="M12 5c0-1.5 1-3 3-3"/></svg>
+          <h3>Fruits &amp; Vegetables</h3>
+          <p class="mb-3">Fresh stock restocked daily.</p>
+          <div>
+            <span class="item-chip">Bananas</span>
+            <span class="item-chip">Tomatoes</span>
+            <span class="item-chip">Onions</span>
+            <span class="item-chip">Potatoes</span>
+            <span class="item-chip">Green Chillies</span>
+            <span class="item-chip">Coriander</span>
+            <span class="item-chip">Lemons</span>
+            <span class="item-chip">Apples</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dairy & Bakery -->
+      <div class="col-lg-6">
+        <div class="cat-card h-100">
+          <svg class="cat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 2h6l1 5H8l1-5Z"/><path d="M7 7h10l1 13a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L7 7Z"/></svg>
+          <h3>Dairy &amp; Bakery</h3>
+          <p class="mb-3">Morning delivery, kept fresh.</p>
+          <div>
+            <span class="item-chip">Milk</span>
+            <span class="item-chip">Curd</span>
+            <span class="item-chip">Paneer</span>
+            <span class="item-chip">Bread</span>
+            <span class="item-chip">Eggs</span>
+            <span class="item-chip">Butter</span>
+            <span class="item-chip">Cheese Slices</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Staples -->
+      <div class="col-lg-6">
+        <div class="cat-card h-100">
+          <svg class="cat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4V2h6v2"/><path d="M9 12h6M9 16h6"/></svg>
+          <h3>Everyday Staples</h3>
+          <p class="mb-3">The kitchen basics, always in stock.</p>
+          <div>
+            <span class="item-chip">Basmati Rice</span>
+            <span class="item-chip">Wheat Atta</span>
+            <span class="item-chip">Toor Dal</span>
+            <span class="item-chip">Moong Dal</span>
+            <span class="item-chip">Sunflower Oil</span>
+            <span class="item-chip">Sugar</span>
+            <span class="item-chip">Salt</span>
+            <span class="item-chip">Spices &amp; Masalas</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Snacks & Beverages -->
+      <div class="col-lg-6">
+        <div class="cat-card h-100">
+          <svg class="cat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 8h12l-1 12a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2L6 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+          <h3>Snacks &amp; Beverages</h3>
+          <p class="mb-3">For cravings at any hour.</p>
+          <div>
+            <span class="item-chip">Biscuits</span>
+            <span class="item-chip">Namkeen</span>
+            <span class="item-chip">Tea</span>
+            <span class="item-chip">Coffee</span>
+            <span class="item-chip">Soft Drinks</span>
+            <span class="item-chip">Chips</span>
+            <span class="item-chip">Chocolates</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Household & Personal Care -->
+      <div class="col-lg-6">
+        <div class="cat-card h-100">
+          <svg class="cat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M8 12h8M12 8v8"/></svg>
+          <h3>Household &amp; Personal Care</h3>
+          <p class="mb-3">The odds and ends you always forget.</p>
+          <div>
+            <span class="item-chip">Detergent</span>
+            <span class="item-chip">Dishwash Liquid</span>
+            <span class="item-chip">Soap</span>
+            <span class="item-chip">Shampoo</span>
+            <span class="item-chip">Toothpaste</span>
+            <span class="item-chip">Tissue Paper</span>
+            <span class="item-chip">Sanitary Products</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <div class="col-lg-6">
+        <div class="cat-card h-100 d-flex flex-column justify-content-center" style="background:var(--color-primary-dark); border-color:transparent;">
+          <h3 style="color:#fff;">Can't find what you need?</h3>
+          <p style="color:rgba(255,255,255,0.85);">Just ask. If it's a common grocery item, there's a good chance it's already on our shelf.</p>
+          <div class="d-flex flex-wrap gap-2 mt-2">
+            <a href="tel:+919963492299" class="btn-call">📞 Call Us</a>
+            <a href="https://wa.me/919963492299" target="_blank" rel="noopener" class="btn-whatsapp" style="background:transparent; color:#fff !important; border-color:rgba(255,255,255,0.5);">💬 WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="smr-footer">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <h4>SMR Grocery Store</h4>
+        <p style="font-size:0.9rem;">Your everyday grocery store inside SMR Vinay Iconia — fresh essentials, fast local delivery.</p>
+      </div>
+      <div class="col-md-4">
+        <h4>Visit or Call</h4>
+        <p style="font-size:0.9rem;">SMR Vinay Iconia<br>Kondapur, Hyderabad – 500084</p>
+        <p style="font-size:0.9rem;"><a href="tel:+919963492299">99634 92299</a></p>
+      </div>
+      <div class="col-md-4">
+        <h4>Quick Links</h4>
+        <p style="font-size:0.9rem;">
+          <a href="about.html">About Us</a><br>
+          <a href="products.html">Products</a><br>
+          <a href="contact.html">Contact</a>
+        </p>
+      </div>
+    </div>
+    <div class="fine-print">
+      © <span id="footer-year"></span> SMR Grocery Store. Demo website built as a student web-development project.
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
